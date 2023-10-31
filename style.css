@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+nav{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    /* position:fixed; */
+}
+.logo{
+    margin-top: 10px;
+}
+.j{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.head{
+    position:absolute;
+    color: white;
+    font-weight: bold;
+    font-size:40px;
+    bottom: 50px;
+}
+.books{
+    display: flex;
+    justify-content: space-around;
+    margin-top:10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom:80px ;
+}
+.book{
+    position: relative;
+    width:150px;
+    height: 270px;
+    border-radius: 5px;
+}
+.prize{
+    display: flex;
+
+}
+.tag{
+    background-color: rgb(64, 137, 255);
+    color: white;
+    position:absolute;
+    right:0px;
+    border-radius: 3px;
+    padding: 2px;
+}
+.img{
+    width: 150px;
+}
+.games{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom:80px ;
+}
+.game{
+    position: relative;
+    width:250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.gifts{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom:80px ;
+}
+.gift{
+    position: relative;
+    width:250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.gr{
+    color: rgb(114, 114, 114);
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    position: relative;
+}
+ .footer{ 
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold ;
+    line-height: 25px;
+    margin-right: 10px;
+    margin-bottom:30px ;
+} 
+header {
+    height: 500px;
+    width: 100%;
+    background-image: url("./assets/kw-background.png");
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.game:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.book:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.gift:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
